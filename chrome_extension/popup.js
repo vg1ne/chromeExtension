@@ -1,5 +1,5 @@
 'use strict';
-var classes = ['main-header', 'mat-button-toggle', 'interval-time', 'mat-card-actions']
+var classes = ['main-header', 'mat-button-toggle', 'interval-time', 'mat-card-actions','mat-button-wrapper']
 var timesToRepeatText = 5
 
 document.addEventListener('DOMContentLoaded', function () {
