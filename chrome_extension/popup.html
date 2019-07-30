@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="popup.js"></script>
+    <style>
+      body {
+        min-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="popup-main">
+        <label for="ignore-input">
+          classes to ignore auto filling:
+          <textarea type="text" id="ignore-input" cols="30" rows="10">main-header,mat-button-toggle,interval-time,mat-card-actions</textarea>
+        </label>
+        <br>
+        <label for="repeat-count">
+          Times to repeat:
+          <div><input type="number" value="3" id="repeat-count" min="2" max="10"></div>
+        </label>
+        <p>&nbsp;</p>
+        <button id="submit" type="button">Fill text</button>&nbsp;
+        <button id="save" type="button">Save settings</button>&nbsp;
+        <button id="restore" type="button">Restore</button>
+    </section>
+  </body>
+</html>
