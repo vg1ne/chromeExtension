@@ -5,7 +5,7 @@
   "permissions": [
     "activeTab",
     "tabs",
-    "storage"
+    "storage",
   ],
   "browser_action": {
       "default_title": "Set text",

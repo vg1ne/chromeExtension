@@ -1,7 +1,6 @@
 var classToAdd = 'js-autofill-marked'
 
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
-    console.log(message.data)
     classes = message.data.ignoreValue.replace(/\s/g, '').split(',')
     timesToRepeatText = message.data.repeatCount
 
